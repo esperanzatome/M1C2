@@ -9,5 +9,129 @@
 }
 .flex-flexOne{
     display: flex;
+}
+.flex-flexOne .square{
+    margin: 5px;
+}    
+.flex-flexTwo{
+    display: flex;
     flex-direction: column;
 }
+.flex-flexTwo .square{
+    margin: 2px;
+}
+.flex-flexThree{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-flexThree .square{
+    margin: 2px;
+}
+.flex-flexFour{
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+}
+.flex-flexFour .square{
+    margin: 5px;
+    background-color: #3d8b6d;
+    
+}  
+.flex-flexFive{
+    display: flex;
+    width: 350px;
+}
+.flex-flexFive .item{
+    margin: 5px;
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}               
+    #grow{
+        flex-grow: 2;
+    }    
+.flex-flexSix{
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}           
+.flex-flexSix .one{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.flex-flexSix .two{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+    margin-bottom: 5%;
+}
+.flex-flexSix .three{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-flexSeven{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+}
+.flex-flexSeven .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-flexSeven .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #d6d6d6;
+}
+.flex-flexSeven .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flex-flexSeven .four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+.flex-flexEight{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: #eeeeee;
+    border: 1px solid grey;
+}
+.flex-flexEight .one{
+    display: flex;
+    align-items: center;
+}
+.flex-flexEight .two{
+    display: flex;
+    align-items: flex-end;
+}
+.flex-flexEight .three{
+    display: flex;
+    align-items: flex-start;
+}
+.flex-flexNine{
+    display: flex;
+    height: 250px;
+    width: 450px;
+    background-color: #eeeeee;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+}
+    #special{
+        align-self: flex-end;
+    }
